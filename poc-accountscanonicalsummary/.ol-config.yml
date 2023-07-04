@@ -1,0 +1,41 @@
+---
+ol:
+  config:
+    apiSourceFolder: "src/main/java"
+    apiPackage: "com.poc_accountscanonicalsummary.openlegacy"
+    webPackage: "com.poc_accountscanonicalsummary.openlegacy.web"
+    sourceFetcher: "sourceFetcher"
+    designtimeContext: "default"
+    backendSolution: "ORCHESTRATION"
+    frontendSolution: "ORCHESTRATION_REST"
+    referredProjects:
+    - "poc-accountscanonicalsummary-sdk"
+    db2Type: "NONE"
+    rpc:
+      generateRpcPartAsExternalClass: true
+    additionalProperties: {}
+    designtime:
+      parser:
+        cobol:
+          addMissedDots: false
+          handleDuplicateNames: false
+        wsdl:
+          removeNamespaceTrailingSlash: false
+        pli:
+          getDirectionByFieldNamePattern: false
+          inputFieldPattern: ""
+          outputFieldPattern: ""
+        csv:
+          delimiter: ","
+      mapping:
+        converters: []
+      advancedParameters: []
+    swagger:
+      updateConfigInfoFromContractFile: true
+    file:
+      defaultStringLength: 255
+    tcp: {}
+    modules: {}
+    legacyHttpConfig: {}
+    ibmMqConfig: {}
+    queuingConfig: {}

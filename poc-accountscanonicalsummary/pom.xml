@@ -51,8 +51,10 @@
             <groupId>poc-accountscanonicalsummary-sdk</groupId>
             <artifactId>poc-accountscanonicalsummary-sdk</artifactId>
             <version>0.1</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/poc-accountscanonicalsummary-sdk-0.1.jar</systemPath>
+            <!--  
+            <scope>system</scope> 
+            <systemPath>${basedir}/lib/poc-accountscanonicalsummary-sdk-0.1.jar</systemPath> 
+            -->
         </dependency>
          <!-- For handling validation annotations -->
         <dependency>
@@ -151,4 +153,10 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+		<repository>
+			<id>repositoy-internal</id>
+			<url>file://${basedir}/repositoy-internal</url>
+		</repository>
+	</repositories>
 </project>

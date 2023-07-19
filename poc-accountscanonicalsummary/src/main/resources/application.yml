@@ -41,7 +41,7 @@ ol:
   cics:
     project:
       pocAccountscanonicalsummarySdk:
-        base-url: http://130.30.30.6
+        base-url: http://130.30.30.13
         port: 3212
         uri-map: /dev/latest
         code-page: CP037

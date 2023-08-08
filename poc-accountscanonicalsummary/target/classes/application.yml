@@ -41,9 +41,9 @@ ol:
   cics:
     project:
       pocAccountscanonicalsummarySdk:
-        base-url: http://130.30.30.13
-        port: 3212
-        uri-map: /dev/latest
+        base-url: http://130.30.30.6
+        port: 3213
+        uri-map: /uat/latest
         code-page: CP037
   license:
     key: eyJhbGciOiJSUzI1NiJ9.eyJjdXN0b21lcl9uYW1lIjoiSW50ZXJCYW5rIiwicHJvZHVjdCI6Im9wZW5sZWdhY3ktY29yZSIsInN1YiI6Im9sIiwiaXNzdWVkX2F0IjoiMjAyMy0wNS0xOFQxNzoyNToxN1oiLCJ2YWxpZF9mb3IiOjkwLCJleHBpcnlfZGF0ZSI6IjIwMjMtMDgtMTZUMTc6MjU6MTdaIn0.SzaqRjgXvxox70iqFHNiOohGXcIl9UrQtnMb0fzit2-ZqO7WuYh7l06BN46lBMZVB1oOCRiFVaQnEtvXL-RetsJ7v7ROPtfpTHoplMvs8wQ-Lywb5tBrBjCqOnBqISg_vAsAu4BUB7sM1QEFz4aeESqG89488bWyJ6WCrvI22Eb5UfRk-UMLYMiKH3AiIXvqR2w-bL9werdMdi6cJ72X4yEN50KzS_BN8izObOtb1GNrGyxpC8ALH3R-DVNdKMmI8hPa9Bd2_Xa1okZYqP2wAQayoN0sb7y_rzCzlbjVy8IS_mKk9de5MvlvWry4Fso2J_zEJBvJ_gz5Jlgrp4KSZQ
